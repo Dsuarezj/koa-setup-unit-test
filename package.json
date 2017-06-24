@@ -1,0 +1,23 @@
+{
+  "name": "koa-setup-unit-test",
+  "version": "1.0.0",
+  "description": "Esqueleto básico para iniciar un servidor rest usando node.js y koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node.js",
+    "koa",
+    "jasmine",
+    "rest"
+  ],
+  "author": "dsuarez",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.1"
+  }
+}
