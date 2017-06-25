@@ -14,7 +14,7 @@ router.post('/helloWorld', helloWorld)
 app.use(router.routes());
 
 async function helloWorld(ctx){
-  var recieveData = JSON.parse(ctx.request.body);
+  var recieveData = ctx.request.body;
   var name = recieveData["name"];
   var message = "Hello " + name;
   await (ctx.body = {"test":message})
